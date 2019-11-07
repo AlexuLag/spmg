@@ -32,6 +32,8 @@ namespace spmg.API
             services.AddControllers();
 
             services.AddCors();
+
+            services.AddScoped<IAuthRepository,AuthRepository>();
     
         
            
